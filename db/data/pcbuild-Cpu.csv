@@ -1,0 +1,65 @@
+name,price,core_count,core_clock,boost_clock,tdp,graphics,smt
+AMD Ryzen 7 7800X3D,369,8,4.2,5,120,Radeon,true
+AMD Ryzen 5 7600X,224,6,4.7,5.3,105,Radeon,true
+AMD Ryzen 5 5600X,154.15,6,3.7,4.6,65,,true
+Intel Core i9-14900K,544.99,24,3.2,6,125,Intel UHD Graphics 770,true
+AMD Ryzen 5 7600,210.99,6,3.8,5.1,65,Radeon,true
+Intel Core i7-13700K,370.99,16,3.4,5.4,125,Intel UHD Graphics 770,true
+AMD Ryzen 5 5600,134.99,6,3.5,4.4,65,,true
+Intel Core i5-12400F,148.99,6,2.5,4.4,65,,true
+AMD Ryzen 7 5800X,219.13,8,3.8,4.7,105,,true
+AMD Ryzen 5 5500,98.2,6,3.6,4.2,65,,true
+Intel Core i7-14700K,399.99,20,3.4,5.6,125,Intel UHD Graphics 770,true
+AMD Ryzen 5 3600,109.31,6,3.6,4.2,65,,true
+AMD Ryzen 7 7700X,287.99,8,4.5,5.4,105,Radeon,true
+AMD Ryzen 9 7950X3D,599,16,4.2,5.7,120,Radeon,true
+Intel Core i5-12600K,169.96,10,3.7,4.9,125,Intel UHD Graphics 770,true
+AMD Ryzen 7 5700X,179.61,8,3.4,4.6,65,,true
+Intel Core i7-12700K,236.98,12,3.6,5,125,Intel UHD Graphics 770,true
+AMD Ryzen 7 5800X3D,295.58,8,3.4,4.5,105,,true
+Intel Core i5-13600K,297.99,14,3.5,5.1,125,Intel UHD Graphics 770,true
+AMD Ryzen 5 5600G,139,6,3.9,4.4,65,Radeon Vega 7,true
+AMD Ryzen 9 7900X,383.23,12,4.7,5.6,170,Radeon,true
+Intel Core i5-12600KF,152.97,10,3.7,4.9,125,,true
+Intel Core i3-12100F,96.99,4,3.3,4.3,58,,true
+AMD Ryzen 9 5900X,298.99,12,3.7,4.8,105,,true
+AMD Threadripper 3990X,4255,64,2.9,4.3,280,,true
+Intel Core i7-14700KF,379,20,3.4,5.6,125,,true
+Intel Core i5-13400F,203.99,10,2.5,4.6,65,,true
+AMD Ryzen 5 4500,78.5,6,3.6,4.1,65,,true
+Intel Core i9-13900K,524.99,24,3,5.8,125,Intel UHD Graphics 770,true
+Intel Core i5-14600K,299.99,14,3.5,5.3,125,Intel UHD Graphics 770,true
+Intel Core i9-12900K,324.99,16,3.2,5.2,125,Intel UHD Graphics 770,true
+AMD Ryzen 9 7950X,549.99,16,4.5,5.7,170,Radeon,true
+AMD Ryzen 7 5700G,169.99,8,3.8,4.6,65,Radeon Vega 8,true
+Intel Core i5-13600KF,285.98,14,3.5,5.1,125,,true
+AMD Ryzen 7 3700X,210,8,3.6,4.4,65,,true
+AMD Ryzen 7 7700,293.08,8,3.6,5.3,65,Radeon,true
+Intel Core i7-12700KF,209.98,12,3.6,5,125,,true
+Intel Core i9-14900KF,539,24,3.2,6,125,,true
+Intel Core i5-14600KF,284.98,14,3.5,5.3,125,,true
+AMD Ryzen 9 7900X3D,409.98,12,4.4,5.6,120,Radeon,true
+AMD Ryzen 9 5950X,367,16,3.4,4.9,105,,true
+Intel Core i7-13700KF,369.99,16,3.4,5.4,125,,true
+AMD Ryzen 5 7500F,,6,3.7,5,65,,true
+Intel Core i5-10400F,112.99,6,2.9,4.3,65,,true
+AMD Ryzen 7 8700G,329,8,4.2,5.1,65,Radeon 780M,true
+AMD Ryzen 3 4100,69,4,3.8,4,65,,true
+Intel Core i5-12400,159.49,6,2.5,4.4,65,Intel UHD Graphics 730,true
+AMD Ryzen 7 5700X3D,247,8,3,4.1,105,,true
+AMD Ryzen 5 8500G,179,6,4.1,5,65,Radeon 740M,true
+AMD Ryzen 5 4600G,112.91,6,3.7,4.2,65,Radeon Vega 7,true
+Intel Core i5-13500,244.85,14,2.5,4.8,65,Intel UHD Graphics 770,true
+Intel Core i3-10100F,71.3,4,3.6,4.3,65,,true
+AMD Ryzen 5 2600,155,6,3.4,3.9,65,,true
+AMD Ryzen 5 8600G,229,6,4.3,5,65,Radeon 760M,true
+AMD Ryzen 9 7900,369,12,3.6,5.4,65,Radeon,true
+Intel Core i7-8700K,210,6,3.7,4.7,95,Intel UHD Graphics 630,true
+Intel Core i3-13100F,119.99,4,3.4,4.5,58,,true
+Intel Core i7-9700K,294.13,8,3.6,4.9,95,Intel UHD Graphics 630,false
+Intel Core i9-13900KS,629.99,24,3,6,150,Intel UHD Graphics 770,true
+Intel Core i5-13400,238.99,10,2.5,4.6,65,Intel UHD Graphics 730,true
+AMD Ryzen 3 3200G,92.59,4,3.6,4,65,Radeon Vega 8,false
+Intel Core i7-13700F,361.93,16,2.1,5.2,65,,true
+Intel Core i3-12100,116.49,4,3.3,4.3,60,Intel UHD Graphics 730,true
+Intel Core i5-14500,239.99,14,2.6,5,65,Intel UHD Graphics 770,true
