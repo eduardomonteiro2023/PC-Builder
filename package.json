@@ -23,9 +23,6 @@
   },
   "cds": {
     "requires": {
-      "[production]": {
-        "auth": "xsuaa"
-      },
       "db": {
         "kind": "sqlite",
         "impl": "@cap-js/sqlite",
