@@ -11,7 +11,5 @@ service ComputerService {
     entity Powersupply                   as projection on my.Powersupply;
     entity Gpu                           as projection on my.Gpu;
     entity Internalmemory                as projection on my.Internalmemory;
-
-    @readonly
     entity Persons                       as projection on external.Persons;
 }

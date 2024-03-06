@@ -1,11 +1,11 @@
 ## Application Details
 |               |
 | ------------- |
-|**Generation Date and Time**<br>Wed Mar 06 2024 12:01:51 GMT+0000 (Coordinated Universal Time)|
+|**Generation Date and Time**<br>Wed Mar 06 2024 16:14:34 GMT+0000 (Coordinated Universal Time)|
 |**App Generator**<br>@sap/generator-fiori-elements|
 |**App Generator Version**<br>1.12.5|
 |**Generation Platform**<br>SAP Business Application Studio|
-|**Template Used**<br>Worklist Page V4|
+|**Template Used**<br>List Report Page V4|
 |**Service Type**<br>Local Cap|
 |**Service URL**<br>http://localhost:4004/odata/v4/computer/
 |**Module Name**<br>pcbuilder-ui|
@@ -21,7 +21,7 @@
 
 ## pcbuilder-ui
 
-PC Builder List UI
+An SAP Fiori application.
 
 ### Starting the generated app
 

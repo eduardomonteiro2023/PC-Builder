@@ -42,6 +42,7 @@
   },
   "sapux": [
     "app/appmain",
+    "app/pcbuilder-ui",
     "app/pcbuilder-ui"
   ]
 }

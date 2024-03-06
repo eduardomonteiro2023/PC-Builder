@@ -11,9 +11,9 @@
     "description": "{{appDescription}}",
     "resources": "resources.json",
     "sourceTemplate": {
-      "id": "@sap/generator-fiori:worklist",
+      "id": "@sap/generator-fiori:lrop",
       "version": "1.12.5",
-      "toolsId": "f29cc999-83d6-41c5-89fb-4e58a33cecf0"
+      "toolsId": "eea077f3-bc5c-457c-9436-10f9fb4255f0"
     },
     "dataSources": {
       "mainService": {
@@ -105,7 +105,6 @@
             "settings": {
               "contextPath": "/Computer",
               "variantManagement": "Page",
-              "hideFilterBar": true,
               "navigation": {
                 "Computer": {
                   "detail": {
