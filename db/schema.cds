@@ -5,15 +5,15 @@ using {metadata as external} from '../srv/external/metadata';
 namespace pcbuild;
 
 entity Computer : cuid {
-    ![case]        : Composition of one ![Case] on ![case].computer=$self;
-    cpucooler      : Composition of one Cpucooler on cpucooler.computer=$self;
-    cpu            : Composition of one Cpu on cpu.computer=$self;
+    ![case]        : Composition of many ![Case] on ![case].computer=$self;
+    cpucooler      : Composition of many Cpucooler on cpucooler.computer=$self;
+    cpu            : Composition of many Cpu on cpu.computer=$self;
     memory         : Composition of many Memory on memory.computer=$self;
-    motherboard    : Composition of one Motherboard on motherboard.computer=$self;
-    powersupply    : Composition of one Powersupply on powersupply.computer=$self;
+    motherboard    : Composition of many Motherboard on motherboard.computer=$self;
+    powersupply    : Composition of many Powersupply on powersupply.computer=$self;
     gpu            : Composition of many Gpu on gpu.computer=$self;
     internalmemory : Composition of many Internalmemory on internalmemory.computer=$self;
-    persons        : Association to one external.Persons;
+    persons        : Association to many external.Persons on persons.ID;
     price          : Double;
 
 }
@@ -36,7 +36,7 @@ entity Cpucooler : cuid {
 
     name        : String;
     price       : Double;
-    rpm         : Integer;
+    rpm         : String;
     noise_level : Integer;
     color       : Integer;
     size        : Integer;
@@ -49,8 +49,8 @@ entity Cpu : cuid {
     name        : String;
     price       : Double;
     core_count  : Integer;
-    core_clock  : Integer;
-    boost_clock : Integer;
+    core_clock  : Double;
+    boost_clock : Double;
     tdp         : Integer;
     graphics    : String;
     smt         : Boolean;

@@ -1,15 +1,15 @@
 sap.ui.require(
     [
         'sap/fe/test/JourneyRunner',
-        'pcbuilderui/test/integration/FirstJourney',
-		'pcbuilderui/test/integration/pages/ComputerList',
-		'pcbuilderui/test/integration/pages/ComputerObjectPage'
+        'pcshop/pcshopui/test/integration/FirstJourney',
+		'pcshop/pcshopui/test/integration/pages/ComputerList',
+		'pcshop/pcshopui/test/integration/pages/ComputerObjectPage'
     ],
     function(JourneyRunner, opaJourney, ComputerList, ComputerObjectPage) {
         'use strict';
         var JourneyRunner = new JourneyRunner({
             // start index.html in web folder
-            launchUrl: sap.ui.require.toUrl('pcbuilderui') + '/index.html'
+            launchUrl: sap.ui.require.toUrl('pcshop/pcshopui') + '/index.html'
         });
 
        

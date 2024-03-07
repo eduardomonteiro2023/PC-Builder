@@ -1,7 +1,7 @@
 {
   "_version": "1.59.0",
   "sap.app": {
-    "id": "pcbuilderui",
+    "id": "pcshop.pcshopui",
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
@@ -13,7 +13,7 @@
     "sourceTemplate": {
       "id": "@sap/generator-fiori:lrop",
       "version": "1.12.5",
-      "toolsId": "eea077f3-bc5c-457c-9436-10f9fb4255f0"
+      "toolsId": "e89e2499-70ed-454d-a2ae-0236a9acf956"
     },
     "dataSources": {
       "mainService": {
@@ -61,7 +61,7 @@
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
-          "bundleName": "pcbuilderui.i18n.i18n"
+          "bundleName": "pcshop.pcshopui.i18n.i18n"
         }
       },
       "": {
@@ -83,7 +83,6 @@
       "css": []
     },
     "routing": {
-      "config": {},
       "routes": [
         {
           "pattern": ":?query:",
@@ -111,7 +110,8 @@
                     "route": "ComputerObjectPage"
                   }
                 }
-              }
+              },
+              "initialLoad": "Enabled"
             }
           }
         },

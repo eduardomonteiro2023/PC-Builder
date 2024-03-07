@@ -1,16 +1,16 @@
 ## Application Details
 |               |
 | ------------- |
-|**Generation Date and Time**<br>Wed Mar 06 2024 16:14:34 GMT+0000 (Coordinated Universal Time)|
+|**Generation Date and Time**<br>Thu Mar 07 2024 11:27:08 GMT+0000 (Coordinated Universal Time)|
 |**App Generator**<br>@sap/generator-fiori-elements|
 |**App Generator Version**<br>1.12.5|
 |**Generation Platform**<br>SAP Business Application Studio|
 |**Template Used**<br>List Report Page V4|
 |**Service Type**<br>Local Cap|
 |**Service URL**<br>http://localhost:4004/odata/v4/computer/
-|**Module Name**<br>pcbuilder-ui|
-|**Application Title**<br>PC Builder List|
-|**Namespace**<br>|
+|**Module Name**<br>pcshop-ui|
+|**Application Title**<br>PC Shop|
+|**Namespace**<br>pcshop|
 |**UI5 Theme**<br>sap_horizon|
 |**UI5 Version**<br>1.121.1|
 |**Enable Code Assist Libraries**<br>False|
@@ -19,7 +19,7 @@
 |**Main Entity**<br>Computer|
 |**Navigation Entity**<br>None|
 
-## pcbuilder-ui
+## pcshop-ui
 
 An SAP Fiori application.
 
@@ -27,7 +27,7 @@ An SAP Fiori application.
 
 -   This app has been generated using the SAP Fiori tools - App Generator, as part of the SAP Fiori tools suite.  In order to launch the generated app, simply start your CAP project and navigate to the following location in your browser:
 
-http://localhost:4004/pcbuilder-ui/webapp/index.html
+http://localhost:4004/pcshop-ui/webapp/index.html
 
 #### Pre-requisites:
 

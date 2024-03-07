@@ -20,7 +20,8 @@
     "start": "cds-serve",
     "watch-adminapp": "cds watch --open adminapp/webapp/index.html?sap-ui-xx-viewCache=false",
     "watch-appmain": "cds watch --open appmain/webapp/index.html?sap-ui-xx-viewCache=false",
-    "watch-pcbuilder-ui": "cds watch --open pcbuilder-ui/webapp/index.html?sap-ui-xx-viewCache=false"
+    "watch-pcbuilder-ui": "cds watch --open pcbuilder-ui/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-pcshop-ui": "cds watch --open pcshop-ui/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "cds": {
     "requires": {
@@ -43,6 +44,7 @@
   "sapux": [
     "app/appmain",
     "app/pcbuilder-ui",
-    "app/pcbuilder-ui"
+    "app/pcbuilder-ui",
+    "app/pcshop-ui"
   ]
 }

@@ -1,3 +1,2 @@
 
-
-using from './pcbuilder-ui/annotations';
+using from './pcshop-ui/annotations';
