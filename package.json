@@ -40,7 +40,7 @@
           "url": "https://services.odata.org/v4/OData/OData.svc"
         }
       },
-      "auth": "xsuaa"
+      "auth": "mocked"
     }
   },
   "sapux": [

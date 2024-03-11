@@ -1,2 +1,2 @@
 
-using from './pcshop-ui/annotations';
+using from './pcshop-admin-ui/annotations';

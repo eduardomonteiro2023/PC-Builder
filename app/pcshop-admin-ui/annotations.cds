@@ -122,40 +122,6 @@ annotate service.Case with @(
     ]
 );
 
-annotate service.Case with {
-    name @(Common.ValueList : {
-            $Type : 'Common.ValueListType',
-            CollectionPath : 'Case',
-            Parameters : [
-                {
-                    $Type : 'Common.ValueListParameterInOut',
-                    LocalDataProperty : name,
-                    ValueListProperty : 'name',
-                },
-                {
-                    $Type : 'Common.ValueListParameterInOut',
-                    ValueListProperty : 'color',
-                    LocalDataProperty : color,
-                },
-                {
-                    $Type : 'Common.ValueListParameterInOut',
-                    ValueListProperty : 'type',
-                    LocalDataProperty : type,
-                },
-                {
-                    $Type : 'Common.ValueListParameterInOut',
-                    ValueListProperty : 'side_panel',
-                    LocalDataProperty : side_panel,
-                },
-                {
-                    $Type : 'Common.ValueListParameterInOut',
-                    ValueListProperty : 'price',
-                    LocalDataProperty : price,
-                },
-            ],
-        },
-        Common.ValueListWithFixedValues : false
-)};
 annotate service.Cpu with @(
     UI.LineItem #CPU : [
         {
@@ -352,20 +318,43 @@ annotate service.Powersupply with @(
             Label : 'price',
         },]
 );
-annotate service.Persons with @(
-    UI.LineItem #Customer : [
-        {
-            $Type : 'UI.DataField',
-            Value : Name,
-            Label : 'Name',
-        },]
-);
-annotate service.Persons with @(
-    Communication.Contact #contact : {
-        $Type : 'Communication.ContactType',
-        fn : Name,
-    }
-);
+
+//Value Helps
+annotate service.Case with {
+    name @(Common.ValueList : {
+            $Type : 'Common.ValueListType',
+            CollectionPath : 'Case',
+            Parameters : [
+                {
+                    $Type : 'Common.ValueListParameterInOut',
+                    LocalDataProperty : name,
+                    ValueListProperty : 'name',
+                },
+                {
+                    $Type : 'Common.ValueListParameterInOut',
+                    ValueListProperty : 'color',
+                    LocalDataProperty : color,
+                },
+                {
+                    $Type : 'Common.ValueListParameterInOut',
+                    ValueListProperty : 'type',
+                    LocalDataProperty : type,
+                },
+                {
+                    $Type : 'Common.ValueListParameterInOut',
+                    ValueListProperty : 'side_panel',
+                    LocalDataProperty : side_panel,
+                },
+                {
+                    $Type : 'Common.ValueListParameterInOut',
+                    ValueListProperty : 'price',
+                    LocalDataProperty : price,
+                },
+            ],
+        },
+        Common.ValueListWithFixedValues : false
+)};
+
 annotate service.Cpu with {
     name @(Common.ValueList : {
             $Type : 'Common.ValueListType',
