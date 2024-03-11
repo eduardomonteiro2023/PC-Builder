@@ -13,7 +13,7 @@ entity Computer : cuid {
     powersupply    : Composition of many Powersupply on powersupply.computer=$self;
     gpu            : Composition of many Gpu on gpu.computer=$self;
     internalmemory : Composition of many Internalmemory on internalmemory.computer=$self;
-    persons        : Association to many external.Persons on persons.ID;
+    persons        : Association to many external.Persons;
     price          : Double;
 
 }
@@ -125,6 +125,4 @@ entity Internalmemory : cuid {
     computer     : Association to Computer;
 
 }
-
-
 

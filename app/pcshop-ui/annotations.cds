@@ -1,6 +1,7 @@
 using ComputerService as service from '../../srv/admin-service';
 
 annotate service.Computer with @(
+    odata.draft.enabled: true,
     UI.LineItem : [
         {
             $Type : 'UI.DataField',
@@ -638,10 +639,6 @@ annotate service.Powersupply with {
         },
         Common.ValueListWithFixedValues : false
 )};
-annotate service.Computer with @(
-    UI.FieldGroup #Costumer : {
-        $Type : 'UI.FieldGroupType',
-        Data : [
-        ],
-    }
-);
+
+
+
