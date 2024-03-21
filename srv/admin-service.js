@@ -1,4 +1,6 @@
 const cds = require('@sap/cds');
+const axios = require('axios');
+
 
 module.exports = async srv => {
     const { Computer, Persons } = srv.entities;
@@ -10,10 +12,23 @@ module.exports = async srv => {
     });
 
 
-    srv.before(['READ','CREATE', 'UPDATE'], Computer, async req => {
+    srv.on('READ', Computer, async req => { 
+    
+    const response = await axios.get(req.query.url);
+
+        // Extract relevant data from the response
+        const data = response.data;
+
+        // Return the fetched information
+        return data;})
+
+    srv.on('acceptOrder', req => UPDATE(req.target).with({ orderstatus_code: 'A' }));
+    srv.on('rejectOrder', req => UPDATE(req.target).with({ orderstatus_code: 'X' }));
+
+    srv.before(['READ', 'CREATE', 'UPDATE'], Computer, async req => {
 
         let totalPrice = 0;
-        
+
         const { case: cases, cpucooler, cpu, memory, motherboard, powersupply, gpu, internalmemory } = req.data;
 
         // Calculate the total price from associated entities

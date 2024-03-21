@@ -44,6 +44,6 @@
     }
   },
   "sapux": [
-    "app/pcshop-ui"
+    "app/pcshop-admin-ui"
   ]
 }

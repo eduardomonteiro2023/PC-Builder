@@ -2,7 +2,10 @@ using {pcbuild as my} from '../db/schema';
 using {metadata as external} from './external/metadata.csn';
 
 service ComputerService {
-    entity Computer       as projection on my.Computer;
+    entity Computer       as projection on my.Computer actions{
+        action acceptOrder();
+        action rejectOrder();
+    };
     entity ![Case]        as projection on my.Case;
     entity Cpucooler      as projection on my.Cpucooler;
     entity Cpu            as projection on my.Cpu;

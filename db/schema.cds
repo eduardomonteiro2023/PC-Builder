@@ -1,4 +1,4 @@
-using {cuid} from '@sap/cds/common';
+using {cuid, sap.common.CodeList} from '@sap/cds/common';
 using {metadata as external} from '../srv/external/metadata';
 
 
@@ -15,6 +15,7 @@ entity Computer : cuid {
     internalmemory : Composition of many Internalmemory on internalmemory.computer=$self;
     persons        : Association to many external.Persons;
     price          : Double;
+    orderstatus    : Association to OrderStatus;
 
 }
 
@@ -126,3 +127,11 @@ entity Internalmemory : cuid {
 
 }
 
+entity OrderStatus : CodeList {
+  key code : String enum {
+    Open     = 'O';
+    Accepted = 'A';
+    Canceled = 'X';
+  } default 'O';
+  criticality: Integer;
+}

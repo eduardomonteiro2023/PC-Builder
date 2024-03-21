@@ -38,8 +38,25 @@ annotate service.Computer with @(
             Value : price,
             Label : 'Price',
         },
+        {
+            $Type : 'UI.DataFieldForAction',
+            Action : 'ComputerService.acceptOrder',
+            Label : '{i18n>AcceptOrder}',
+        },
+        {
+            $Type : 'UI.DataFieldForAction',
+            Action : 'ComputerService.rejectOrder',
+            Label : '{i18n>RejectOrder}',
+        },
+        {
+            $Type : 'UI.DataField',
+            Value : orderstatus.name,
+            Label : '{i18n>OrderStatus}',
+            Criticality : orderstatus.criticality,
+        },
     ]
 );
+
 annotate service.Computer with @(
     UI.Facets : [
         {
